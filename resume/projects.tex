@@ -2,37 +2,64 @@
 
 \begin{cventries}
   \cventry
-    {} {Hackathons} {} {} {
+    {Rasberry Pi monitoring device}
+    {Hackathons}
+    {}
+    {}
+    {
       \begin{cvitems}
-      \item {Built device costing <\$150 to control and monitor set top boxes replacing some need for devices costing >\$1000}
+      \item {Reduced automation test bed monitoring device costing >\$1000 by 80\%}
+      \item {Built device costing <\$150 for controlling and monitoring set top boxes replacing some need for devices costing >\$1000}
         \begin{itemize}
         \item {Python script accessing infrared transceiver on Raspberry Pi's GPIO to control set-top box}
         \item {Monitored data to verify channel activity}
         \end{itemize}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Ansible playbook}
+    {}
+    {}
+    {}
+    {
+      \begin{cvitems}
       \item {Wrote Ansible playbook for mass in-house device upgrades}
       \end{cvitems}
     }
 
   \cventry
-    {} {Hydra} {} {} {
+    {Test bed Reservation System}
+    {Hydra}
+    {}
+    {}
+    {
       \begin{cvitems} % Description(s) bullet points
-      \item {Moved services from single physical server to individual docker containers: web UI, web API, web proxy, beanstalkd, database}
+      \item {Moved backing services from monolithic singer server deployment to indidual containers: web UI, web API, web proxy, beanstalkd, database}
       \item {Wrote Ansible playbook to spin up host instance and all service containers in OpenStack from job in Jenkins}
       \end{cvitems}
     }
 
   \cventry
-    {} {Wi-Fi} {} {} {
+    {Fail fast firmware testing}
+    {Wi-Fi Test bed}
+    {}
+    {}
+    {
       \begin{cvitems} % Description(s) bullet points
-      \item {Built out test bed containing Wi-Fi controller, APs, and networking infrastructure}
-      \item {Wrote Robot Framework upgrade tests}
+      \item {Planned requirements and setup test beds for quick firmware testing of Wi-Fi controller and access points}
+      \item {Wrote upgrade tests in Robot Framework}
       \item {Tests drove Wi-Fi controller via web UI, simulating customer workflow}
       \item {Integrated tests into Jenkins automation pipeline}
       \end{cvitems}
     }
 
   \cventry
-    {} {Vulture} {} {} {
+    {Python library}
+    {Vulture}
+    {}
+    {}
+    {
       \begin{cvitems} % Description(s) bullet points
       \item {Wrote Python log collection utility for postmortem test failure analysis}
       \item {Collected device logs, CLI command output, and automated Robot Framework test logs}
